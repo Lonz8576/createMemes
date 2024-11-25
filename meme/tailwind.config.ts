@@ -1,5 +1,6 @@
 import type { Config } from "tailwindcss";
 
+
 export default {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -16,13 +17,14 @@ export default {
     colors: {
       'blue': '#1fb6ff',
       'purple': '#7e5bef',
-      'pink': '#ff49db',
-      'orange': '#ff7849',
-      'green': '#13ce66',
+      'light-tan': '#faf5e4',
+      'orange': '#f8b400',
+      'dark-green': '#004445',
+      'light-green': '#2c786c',
       'yellow': '#ffc82c',
       'gray-dark': '#273444',
       'gray': '#8492a6',
-      'gray-light': '#d3dce6',
+      'white': '#f8f8f8',
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
