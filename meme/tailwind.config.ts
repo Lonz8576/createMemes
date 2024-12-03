@@ -27,13 +27,16 @@ export default {
       'white': '#f8f8f8',
     },
     fontFamily: {
-      sans: ['Graphik', 'sans-serif'],
-      serif: ['Merriweather', 'serif'],
+      sans: ['var(--noto-font)'],
+      serif: ['var(--fira-font)'],
+      display: ['var(--display-font)'],
+      cute: ['var(--cute-font)'],
+      xl: ['var(--large-font)'],
     },
     extend: {
       spacing: {
-        '128': '32rem',
-        '144': '36rem',
+        '8xl': '96rem',
+        '9xl': '128rem',
       },
       borderRadius: {
         '4xl': '2rem',
